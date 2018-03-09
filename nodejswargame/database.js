@@ -1,9 +1,9 @@
 //The Database class which uses MongoDB to store user data.
 function Database(){
 	var MongoClient = require('mongodb').MongoClient;
-	//Connection string for MongoDB. Example:
-	//mongodb://[Host Location]:[MongoDB Port]/[Database Name]
-	let connectionString = "mongodb://localhost:27017/nodejsdatabase";
+	//Connection string for MongoDB.
+	//Example:  mongodb://[Host Location]:[MongoDB Port]/[Database Name]
+	let connectionString = "";
 
 	MongoClient.connect(connectionString,
 		function(err, client){
