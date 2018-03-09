@@ -8,7 +8,6 @@ function User(userName, userPass){
 	this.userPass = userPass;
 	this.userFName = null;
 	this.userLName = null;
-	this.name = null;
 	this.userEmail = null;
 }
 
