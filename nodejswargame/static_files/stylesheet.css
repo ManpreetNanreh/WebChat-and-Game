@@ -1,0 +1,207 @@
+/* General */
+
+h1{
+	color: #0074D9;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2{
+	border: 0px;
+	color: #4EB1BA;
+	font-family: "Times New Roman", Times, serif;
+}
+
+td img{
+	height: 24px;
+	width: 24px;
+}
+
+body { 
+    background: url(/backgrounds/ep_naturalblack.png) repeat 0 0;
+	/* Source: https://www.toptal.com/designers/subtlepatterns */
+}
+
+#currentScore, #currentTime, #currentStatus{
+	width: 90px;
+}
+
+#setupBoxes, #setupDimensions, #setupMonsters, #setupMegaMonsters{
+	width: 92px;
+}
+
+#emptyLogin, #emptyRegisterField, #emptyProfileField{
+	color: white;
+}
+
+/* Login page */
+
+#loginTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#highScores{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 38%;
+	margin-right: 38%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+	/* Source: https://www.toptal.com/designers/subtlepatterns */
+}
+
+/* Main Menu Page */
+
+#menuForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 38%;
+	margin-right: 38%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+/* Register Page */
+
+#registerForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 30%;
+	margin-right: 30%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+/* Profile Page */
+
+#profileForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 30%;
+	margin-right: 30%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#userPName, #userPPass, #confirmUserPPass, #pFirstName, #pLastName, #pEmail {
+	float: right;
+	clear: both;
+}
+
+/* Setup Page */
+
+#optionsForm{
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#instructionsTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#legendTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+
+#userInterface{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 8px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#controlsTable{
+	border-spacing:0;
+	border:2px solid #0074D9;
+	border-radius: 25px;
+	padding: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url(/backgrounds/grey_wash_wall.png) repeat 0 0;
+}
+
+#stage td{
+	border: 1px solid black;
+}
+
+#menuDIV {
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+.error { color: #ff0000; }
+  
+#welcomeMenu { padding:12.5px 25px 12.5px 25px; }
+
+#welcomeMenu > p{
+    margin:0;
+    padding:0; }
+  
+.welcome { float:left; }
+
+#wrapper{
+	display: flex;
+}
+
+#chat{
+    margin-top, margin-bottom: auto;
+	margin-left: 25%;
+	margin-right: 2.5%;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    border:1px solid #ACD8F0; 
+	width: 500px;
+}
+
+#chat > form {
+	display: block;
+	margin-top: 0;
+}
+
+#menu {
+	width: 200px;
+}

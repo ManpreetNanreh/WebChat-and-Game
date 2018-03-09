@@ -1,0 +1,17 @@
+{
+  "name": "nodejswargame",
+  "version": "1.0.0",
+  "description": "Game and Chatroom",
+  "main": "express-static.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "ws": "^5.0.0"
+  }
+}
